@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo App</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="font-poppins">
+    <section class="container mx-auto ">
+        <div class="h-screen flex justify-center pt-[80px] ">
+            <div class="">
+                <div>
+
+                    <div>
+                        <picture>
+                            <img src="./images/logo.png" alt="" class="w-[180px] rounded mb-5">
+                        </picture>
+                        <h1 class="text-6xl">Good Afternoon</h1>
+                        <h4 class="text-[#d8d8d8] font-Roboto text-5xl">Time to make your own luck</h4>
+                    </div>
+
+
+                    <div class="mt-16">
+                        <div class="flex gap-2 justify-center items-center">
+                            <input type="text" placeholder="Add task"
+                                class="input_box border border-red-500 outline-blue-500 outline-1 rounded pl-6 py-3 pr-[400px] font-thin text-3xl shadow border-none">
+                            <button
+                                class="add_btn bg-white shadow  px-6 rounded text-3xl py-3 font-bold hover:bg-[#f7f7f7] transition-all duration-300">Add</button>
+                        </div>
+                        <p class="todo_err mt-4 text-2xl text-red-500 font-Roboto"></p>
+                    </div>
+
+                    <ul class="main flex flex-col-reverse gap-5 mt-12 justify-between">
+
+                    </ul>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src=" ./js/script.js"> </script>
+    <script src="./tailwind.config.js">
+    </script>
+    <script src="https://kit.fontawesome.com/bdc3576e6c.js" crossorigin="anonymous"></script>
+
+</body>
+
+</html>
